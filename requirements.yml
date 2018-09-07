@@ -35,3 +35,7 @@
   version: master
 - src: marvel-nccr.aiidalab
   version: master
+- src: marvel-nccr.raspa
+  version: master
+- src: marvel-nccr.ansible_role_vmd
+  version: master

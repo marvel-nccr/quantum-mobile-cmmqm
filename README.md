@@ -1,4 +1,8 @@
-# Quantum Mobile
+# Quantum Mobile 
+
+Modified version of [Quantum Mobile v18.04](https://github.com/marvel-nccr/quantum-mobile/releases/tag/18.04.0) for the course
+[**Computational methods in molecular quantum mechanics**](http://edu.epfl.ch/coursebook/en/computational-methods-in-molecular-quantum-mechanics-CH-452)
+held at EPFL in Fall 2018.
 
 ## What is Quantum Mobile
 

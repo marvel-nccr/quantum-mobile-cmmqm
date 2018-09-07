@@ -112,3 +112,14 @@
       tags: aiidalab
       vars:
         aiidalab_headless: "{{ vm_headless }}"
+    - role: marvel-nccr.ansible_role_vmd
+      tags: vmd
+      vars:
+        vmd_code_folder: "{{ vm_codes_folder }}"
+        vmd_download_link: "{{ lookup('file', './keys/vmd-download-link') }}"
+        vmd_headless: "{{ vm_headless }}"
+    - role: marvel-nccr.raspa
+      tags: raspa
+      vars:
+        raspa_code_folder: "{{ vm_codes_folder }}"
+        raspa_key_file: "./keys/raspa-fork"
